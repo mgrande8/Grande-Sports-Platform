@@ -167,35 +167,35 @@ export default function HomePage() {
           <p className="text-center text-gs-gray-600 mb-10">Save more when you commit to your development</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="card text-center border-gs-green border-2 relative">
-              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gs-green text-white text-xs font-bold px-3 py-1 rounded-full">Most Popular</span>
-              <h3 className="font-bold text-lg mt-2">Monthly Unlimited</h3>
-              <p className="text-3xl font-bold text-gs-black mt-3">$680</p>
-              <p className="text-xs text-gs-gray-500">Unlimited sessions/month</p>
-              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Best Value</span>
-              <p className="text-sm text-gs-gray-600 mt-3">Unlimited private sessions for the month.</p>
-              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - Monthly Unlimited" className="btn-green mt-4 inline-block text-sm">Contact Us</a>
-            </div>
-            <div className="card text-center">
-              <h3 className="font-bold text-lg">10-Session Pack</h3>
-              <p className="text-3xl font-bold text-gs-black mt-3">$800</p>
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gs-green text-white text-xs font-bold px-3 py-1 rounded-full">Best Value</span>
+              <h3 className="font-bold text-lg mt-2">12-Session Pack</h3>
+              <p className="text-3xl font-bold text-gs-black mt-3">$960</p>
               <p className="text-xs text-gs-gray-500">$80/session</p>
-              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Save $150</span>
-              <p className="text-sm text-gs-gray-600 mt-3">Use anytime within 3 months.</p>
-              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - 10-Session Pack" className="btn-secondary mt-4 inline-block text-sm">Contact Us</a>
+              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Save $180</span>
+              <p className="text-sm text-gs-gray-600 mt-3">Twelve private training sessions. Must be used within 45 days of purchase.</p>
+              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - 12-Session Pack" className="btn-green mt-4 inline-block text-sm">Contact Us</a>
             </div>
             <div className="card text-center">
-              <h3 className="font-bold text-lg">5-Session Pack</h3>
-              <p className="text-3xl font-bold text-gs-black mt-3">$425</p>
+              <h3 className="font-bold text-lg">8-Session Pack</h3>
+              <p className="text-3xl font-bold text-gs-black mt-3">$680</p>
               <p className="text-xs text-gs-gray-500">$85/session</p>
-              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Save $50</span>
-              <p className="text-sm text-gs-gray-600 mt-3">Use anytime within 2 months.</p>
-              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - 5-Session Pack" className="btn-secondary mt-4 inline-block text-sm">Contact Us</a>
+              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Save $80</span>
+              <p className="text-sm text-gs-gray-600 mt-3">Eight private training sessions. Must be used within 45 days of purchase.</p>
+              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - 8-Session Pack" className="btn-secondary mt-4 inline-block text-sm">Contact Us</a>
+            </div>
+            <div className="card text-center">
+              <h3 className="font-bold text-lg">4-Session Pack</h3>
+              <p className="text-3xl font-bold text-gs-black mt-3">$360</p>
+              <p className="text-xs text-gs-gray-500">$90/session</p>
+              <span className="inline-block bg-gs-green/10 text-gs-green text-xs font-semibold px-2 py-0.5 rounded mt-2">Save $20</span>
+              <p className="text-sm text-gs-gray-600 mt-3">Four private training sessions. Must be used within 45 days of purchase.</p>
+              <a href="mailto:td.grandesportstraining@gmail.com?subject=Package Inquiry - 4-Session Pack" className="btn-secondary mt-4 inline-block text-sm">Contact Us</a>
             </div>
             <div className="card text-center">
               <h3 className="font-bold text-lg">Single Session</h3>
               <p className="text-3xl font-bold text-gs-black mt-3">$95</p>
               <p className="text-xs text-gs-gray-500">per session</p>
-              <p className="text-sm text-gs-gray-600 mt-5">Book online instantly.</p>
+              <p className="text-sm text-gs-gray-600 mt-5">One private training session. Book online instantly.</p>
               <Link href="/book" className="btn-green mt-4 inline-block text-sm">Book Now</Link>
             </div>
           </div>
@@ -228,12 +228,36 @@ export default function HomePage() {
               <div className="space-y-3 text-gs-gray-600">
                 <p><strong>Address:</strong> Bamford Park, Davie, FL 33314</p>
                 <p><strong>Parking:</strong> Free parking available on-site near the soccer fields.</p>
-                <p><strong>What to bring:</strong> Cleats, shin guards, water, and a ball (optional).</p>
               </div>
               <a href="https://www.google.com/maps/search/Bamford+Park+Davie+FL+33314" target="_blank" rel="noopener noreferrer" className="btn-green inline-flex items-center gap-2 mt-6 w-fit">
                 Get Directions
                 <ArrowRight size={16} />
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Terms & Policies */}
+      <section className="py-16 bg-gs-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-center mb-8">Terms & Policies</h2>
+          <div className="space-y-4 text-sm text-gs-gray-600">
+            <div className="flex items-start gap-3">
+              <CheckCircle size={18} className="text-gs-green mt-0.5 shrink-0" />
+              <p><strong>No Refunds.</strong> All session purchases are final. No refunds will be issued under any circumstances.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle size={18} className="text-gs-green mt-0.5 shrink-0" />
+              <p><strong>Reschedules Only.</strong> If you cannot make a session, you may reschedule by contacting us at least 24 hours in advance.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle size={18} className="text-gs-green mt-0.5 shrink-0" />
+              <p><strong>45-Day Expiration.</strong> All session packs (4, 8, and 12 sessions) must be used within 45 days of purchase. Unused sessions will be forfeited.</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle size={18} className="text-gs-green mt-0.5 shrink-0" />
+              <p><strong>Non-Transferable.</strong> Sessions are for the registered athlete only and cannot be transferred to another person.</p>
             </div>
           </div>
         </div>
